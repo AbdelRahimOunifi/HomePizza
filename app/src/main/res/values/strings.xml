@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Home Pizza</string>
+    <string name="home_pizza">Home PiZZa</string>
+    <string name="help">help</string>
+    <string name="our_pizza">Our Pizza</string>
+    <string name="our_suppliment">Our Suppliment</string>
+    <string name="social_media">social Media</string>
+    <string name="gps">GPS</string>
+    <string name="payment">payment</string>
+    <string name="add_to_card">add to card</string>
+    <string name="add_supliments">add supliments</string>
+    <string name="margherita">Margherita</string>
+    <string name="marinara">Marinara</string>
+    <string name="calzone">Calzone</string>
+    <string name="neapolitan">Neapolitan</string>
+    <string name="tuna">tuna</string>
+    <string name="seafood">seafood</string>
+    <string name="cheese">cheese</string>
+    <string name="portion_frites">Portion frites</string>
+    <string name="pizza_n">Pizza N°</string>
+    <string name="how_much_pizza_do_you_want">How much pizza do you want?</string>
+    <string name="about_as">About As</string>
+    <string name="student">Student at INSAT: Institut national des sciences appliquées et de technologie</string>
+    <string name="done_by">this work is done by Ounifi AbdelRahim</string>
+    <string name="tuna1">Tuna :   </string>
+    <string name="cheese1">Cheese : </string>
+    <string name="frites1">Frites : </string>
+    <string name="seafood1">Seafood :</string>
+    <string name="send_email">Send an Email to our Support :</string>
+    <string name="call_support">Call Support :</string>
+    <string name="help1">Help</string>
+    <string name="the_objective">The objective of this app is : make it easy to order a pizza to your home with the best prices in the market with the supplement that you choose.  Our Support is 24/7 on stand by to help you in case of a problem.    BON APPETIT!!</string>
+</resources>

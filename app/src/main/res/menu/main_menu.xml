@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/our_suppliment"
+        android:id="@+id/our_suppliment"/>
+    <item
+        android:title="@string/help"
+        android:id="@+id/support"/>
+    <item
+        android:title="@string/payment"
+        android:id="@+id/paye"
+        android:icon="@drawable/cart"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="@string/social_media"
+        android:id="@+id/social_media"
+        android:icon="@drawable/facebook"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="@string/gps"
+        android:id="@+id/gps"
+        android:icon="@drawable/crosshairs_gps"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="@string/about_as"
+        android:id="@+id/about_as"/>
+</menu>

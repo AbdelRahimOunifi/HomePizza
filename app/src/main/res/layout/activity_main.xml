@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context="com.example.rahimpc.homepizza.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="horizontal"
+            android:baselineAligned="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="25"
+                android:background="@color/pizzabg"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/marinara" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:text="@string/marinara"
+                    android:textColor="@color/popuptext"
+                    android:textSize="24sp" />
+
+                <ImageButton
+                    android:id="@+id/marinara_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:background="#AD1457"
+                    android:onClick="viewEdit"
+                    android:src="@mipmap/ic_archive_white_24dp"
+                    android:text="@string/add_to_card" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="25"
+                android:background="@color/pizzabg"
+                android:orientation="vertical"
+                android:weightSum="5">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/margherita"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:text="@string/margherita"
+                    android:textColor="@color/popuptext"
+                    android:textSize="24sp" />
+
+                <ImageButton
+                    android:id="@+id/margherita_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:background="#AD1457"
+                    android:onClick="viewEdit"
+                    android:src="@mipmap/ic_archive_white_24dp"
+                    android:text="@string/add_to_card" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="horizontal"
+            android:baselineAligned="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="25"
+                android:background="@color/pizzabg"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/calzone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:text="@string/calzone"
+                    android:textColor="@color/popuptext"
+                    android:textSize="24sp" />
+
+
+                    <ImageButton
+                        android:id="@+id/calzone_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:background="#AD1457"
+                        android:onClick="viewEdit"
+                        android:src="@mipmap/ic_archive_white_24dp"
+                        android:text="@string/add_to_card" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="25"
+                android:background="@color/pizzabg"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/neapolitan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:text="@string/neapolitan"
+                    android:textColor="@color/popuptext"
+                    android:textSize="24sp" />
+
+                <ImageButton
+                    android:id="@+id/neapolitan_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:background="#AD1457"
+                    android:onClick="viewEdit"
+                    android:src="@mipmap/ic_archive_white_24dp"
+                    android:text="@string/add_to_card" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
